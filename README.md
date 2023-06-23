@@ -1,5 +1,5 @@
 # ACG-Platanos
-La generación de imagenes puede servir para entrenar modelos más pequeños y más especificos, además, por lo visto se esta utilizando torch y no solo tensorflow para la generación de imagenes, por lo tanto para el proyecto de algoritmos de computación grafica se esta usando el modelo `majicMixRealistic`.safetensors para la generación de imagenes precisas de platanos de seda, con ciertas caracteristicas que buscamos en platanos de `excelente calidad`, `calidad regular`, `calidad baja` y `mala calidad` para asi poder clasificarlos y generar un `modelo de reconocimiento de plátanos` preciso que nos diga la calidad de los plátanos.
+La generación de imagenes puede servir para entrenar modelos más pequeños y más especificos, además, por lo visto se esta utilizando torch y no solo tensorflow para la generación de imagenes, por lo tanto para el proyecto de algoritmos de computación grafica se esta usando el modelo `fruitFusion.safetensors` y `CyberRealistic.safetensors` para la generación de imágenes precisas de plátanos de seda, con ciertas caracteristicas que buscamos en platanos de seda con calidades de `excelente calidad`, `calidad regular`, `calidad baja` y `mala calidad` para asi poder clasificarlos y generar un `modelo de reconocimiento de plátanos` preciso que nos diga la calidad de los plátanos.
 
 Darle clic al botón de play:
 
@@ -68,4 +68,4 @@ Steps: 30, Sampler: Euler a, CFG scale: 7, Seed: 2632735336, Size: 512x512, Mode
 
 #### Resultado esperados y aceptables:  
 
-![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.011.png)            ![Dibujo de un plátano Descripción generada automáticamente con confianza media](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.012.png)
+![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.011.png)       ![Dibujo de un plátano Descripción generada automáticamente con confianza media](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.012.png)
