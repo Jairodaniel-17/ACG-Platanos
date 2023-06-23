@@ -3,35 +3,31 @@ La generación de imagenes puede servir para entrenar modelos más pequeños y m
 
 Darle clic al botón de play:
 
-![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.001.png)
+![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.001.png)
 
 Dale clic al enlace generado, el que termina con gradio.live
 
-![Texto Descripción generada automáticamente](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.002.png)
+![Texto Descripción generada automáticamente](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.002.png)
 
 Generar 500 imágenes de golpe (tiempo estimado 30min~50min): 
 
-![Imagen de la pantalla de un celular con letras
-
-Descripción generada automáticamente con confianza media](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.003.png)
+![Imagen de la pantalla de un celular con letras Descripción generada automáticamente con confianza media](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.003.png)
 
 Tamaño 512px de alto y 512px ancho
 
-![Patrón de fondo
-
-Descripción generada automáticamente](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.004.png)
+![Patrón de fondo Descripción generada automáticamente](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.004.png)
 
 Números de pasos que tendrá la imagen, aceptable entre [20~35]
 
-![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.005.png)
+![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.005.png)
 
 Tendrán acceso a 2 modelos, [CyberRealistic](https://civitai.com/models/15003/cyberrealistic) (genera todo tipo de imágenes) y otro [FruitFusion](https://civitai.com/models/18742/fruit-fusion) (mezcla frutas y también las genera sin mezclar): 
 
-![Interfaz de usuario gráfica, Aplicación Descripción generada automáticamente](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.006.png)
+![Interfaz de usuario gráfica, Aplicación Descripción generada automáticamente](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.006.png)
 
 Existen 2 formas de generar imágenes una a partir de texto y otra que a partir de texto y una imagen de base que lo usará como guía. 
 
-![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.007.png)
+![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.007.png)
 
 Prompt Negativo para todos:
 
@@ -51,7 +47,7 @@ Realistic bananas, Low quality bananas, Color yellow, Fruits, ((Low quality)), F
 
 **Baja Calidad (Modelo CyberRealistic) img2img:**
 
-![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.008.jpeg)
+![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.008.jpeg)
 
 Bananas realistic, Bananas of very poor quality, poor quality, Color brown, Fruits, ((Poor quality)), not fresh, Medium size, Yellow, Texture smooth and slightly firm, Taste sweet and very creamy, Aroma light and fruity, bananas Rusty, Bruised, Ripe, Isolated On White Background, Bright Uniform Lighting, Regular Bananas, 8K, 4K UHD, Deteriorated Silk Bananas
 
@@ -59,11 +55,11 @@ Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 4039120947, Size: 512x512, Mode
 
 Resultado esperado: 
 
-![Una figura de un plátano Descripción generada automáticamente con confianza baja](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.009.png)
+![Una figura de un plátano Descripción generada automáticamente con confianza baja](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.009.png)
 
 **Mala Calidad (Modelo CyberRealistic) img2img:**
 
-![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.010.png)
+![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.010.png)
 
 very poor quality realistic bananas. Bananas should look black, rotten, and badly decayed. They should have a blackish-brown color over their entire surface. The bananas should not look fresh and should show clear signs of spoilage. They should be medium in size and have a smooth but slightly firm texture. Despite their rotten state, they should taste sweet and very creamy. The aroma should be light and fruity, even in the deteriorated state. Bananas should show rusty spots, bruising, and extreme ripeness. The image should be isolated on a white background with bright, even lighting. The bananas should be of a regular shape and size. The desired resolution is 8K or 4K UHD. silk in bananas
 
@@ -71,4 +67,4 @@ Steps: 30, Sampler: Euler a, CFG scale: 7, Seed: 2632735336, Size: 512x512, Mode
 
 Resultado esperados y aceptables:  
 
-![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.011.png)            ![Dibujo de un plátano Descripción generada automáticamente con confianza media](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.012.png)
+![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.011.png)            ![Dibujo de un plátano Descripción generada automáticamente con confianza media](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.012.png)
