@@ -7,9 +7,7 @@ Darle clic al botón de play:
 
 Dale clic al enlace generado, el que termina con gradio.live
 
-![Texto
-
-Descripción generada automáticamente](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.002.png)
+![Texto Descripción generada automáticamente](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.002.png)
 
 Generar 500 imágenes de golpe (tiempo estimado 30min~50min): 
 
@@ -29,9 +27,7 @@ Números de pasos que tendrá la imagen, aceptable entre [20~35]
 
 Tendrán acceso a 2 modelos, [CyberRealistic](https://civitai.com/models/15003/cyberrealistic) (genera todo tipo de imágenes) y otro [FruitFusion](https://civitai.com/models/18742/fruit-fusion) (mezcla frutas y también las genera sin mezclar): 
 
-![Interfaz de usuario gráfica, Aplicación
-
-Descripción generada automáticamente](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.006.png)
+![Interfaz de usuario gráfica, Aplicación Descripción generada automáticamente](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.006.png)
 
 Existen 2 formas de generar imágenes una a partir de texto y otra que a partir de texto y una imagen de base que lo usará como guía. 
 
@@ -63,9 +59,7 @@ Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 4039120947, Size: 512x512, Mode
 
 Resultado esperado: 
 
-![Una figura de un plátano
-
-Descripción generada automáticamente con confianza baja](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.009.png)
+![Una figura de un plátano Descripción generada automáticamente con confianza baja](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.009.png)
 
 **Mala Calidad (Modelo CyberRealistic) img2img:**
 
@@ -77,6 +71,4 @@ Steps: 30, Sampler: Euler a, CFG scale: 7, Seed: 2632735336, Size: 512x512, Mode
 
 Resultado esperados y aceptables:  
 
-![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.011.png)            ![Dibujo de un plátano
-
-Descripción generada automáticamente con confianza media](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.012.png)
+![](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.011.png)            ![Dibujo de un plátano Descripción generada automáticamente con confianza media](Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.012.png)
