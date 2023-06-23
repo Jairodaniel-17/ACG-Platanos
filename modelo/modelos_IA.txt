@@ -1,0 +1,4 @@
+modelos de IA, formatos aceptables: 
+* pth
+* h5
+* bin, param
