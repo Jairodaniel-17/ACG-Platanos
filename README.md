@@ -31,21 +31,22 @@ Existen 2 formas de generar imágenes una a partir de texto y otra que a partir 
 
 Prompt Negativo para todos:
 
-text, logo, watermark, ((bad art)), ((warped)), (((duplicate))), ((morbid)), ((mutilated)), out of frame, extra fingers, mutated hands , badly drawn eyes, ((badly drawn hands)), ((badly drawn face)), (((mutation))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions) )) , cloned face, body out of frame, out of frame, poor anatomy, thick proportions, (deformed limbs), ((arms missing)), ((legs missing)), (((extra arms))), ( (( extra legs))), (fused fingers), (too many fingers), (((long neck))), tiled, poorly drawn, mutated, cross-eyed, canvas frame, frame, cartoon, 3d, weird colors, blurry lowres, pixelated, aliasing, old, granny, ugly, scarey, warped, mutant, butchered, gore, run down, artifacts, mutilated, poorly drawn, poorly detailed, smudged, sketch, pencil, shiny skin, doll, plastic, lowres, poorly drawn, sloppy, overexposed, oversaturated, burnt image, sloppy, broken, blurry, aliasing, cheap, old school, grungy, pixelated, sleepy, closed eyed, low resolution, poorly drawn, crippled, crooked, broken, weird, weird, distorted, erased, cropped, mutilated, sloppy, hideous, ugly, pixelated, aliased,
+text, logo, watermark, ((bad art)), ((warped)), (((duplicate))), ((morbid)), ((mutilated)), out of frame, extra fingers, mutated hands , badly drawn eyes, ((badly drawn hands)), ((badly drawn face)), (((mutation))), ((ugly)), blurry, ((bad anatomy)), (((bad proportions) )) , cloned face, body out of frame, out of frame, poor anatomy, thick proportions, (deformed limbs), ((arms missing)), ((legs missing)), (((extra arms))), ( (( extra legs))), (fused fingers), (too many fingers), (((long neck))), tiled, poorly drawn, mutated, cross-eyed, canvas frame, frame, cartoon, 3d, weird colors, blurry lowres, pixelated, aliasing, old, granny, ugly, scarey, warped, mutant, butchered, gore, run down, artifacts, mutilated, poorly drawn, poorly detailed, smudged, sketch, pencil, shiny skin, doll, plastic, lowres, poorly drawn, sloppy, overexposed, oversaturated, burnt image, sloppy, broken, blurry, aliasing, cheap, old school, grungy, pixelated, sleepy, closed eyed, low resolution, poorly drawn, crippled, crooked, broken, weird, weird, distorted, erased, cropped, mutilated, sloppy, hideous, ugly, pixelated, aliased
 
-Prompt Positivo:
+## Prompt Positivos para cada calidad y el formato seleccionado para la generación de imagenes:
 
-**Alta Calidad (Modelo fruitFusion), text2img:**
+### Alta Calidad (Modelo fruitFusion), `text2img`
 
 Bananas realista, Bananas of excellent quality, Yellow colour, Fruits,((High quality)), Fresh, Medium size, Bright yellow, Smooth and slightly firm texture, Sweet and slightly creamy flavor, Light and fruity aroma, No visible spots, No bruises, Perfectly Ripe , Isolated On White Background, Bright Uniform Lighting, Normal Bananas, 8K, Blooming Bananas, Fine Art UHD 4K, Silk Bananas
 
-**Regular Calidad (Modelo CyberRealistic) tex2img:**
+![](/img_README/calidad.jpg)
+
+### Regular Calidad (Modelo CyberRealistic) `text2img`
 
 Realistic bananas, Low quality bananas, Color yellow, Fruits, ((Low quality)), Fresh, Medium size, Yellow, Soft and slightly firm texture, Sweet and slightly creamy taste, Light and fruity aroma, Visible spots, Bruised, ripe , isolated on white background, bright uniform lighting, normal bananas, 8K, 4K UHD, silk bananas with many spots
-**
 
-
-**Baja Calidad (Modelo CyberRealistic) img2img:**
+![](img_README/00223-2160878647.png)
+### Baja Calidad (Modelo CyberRealistic) `img2img`
 
 ![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.008.jpeg)
 
@@ -53,11 +54,11 @@ Bananas realistic, Bananas of very poor quality, poor quality, Color brown, Frui
 
 Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 4039120947, Size: 512x512, Model hash: 107d2a241b, Model: CyberRealistic, Denoising strength: 0.75
 
-Resultado esperado: 
+#### Resultado esperado: 
 
 ![Una figura de un plátano Descripción generada automáticamente con confianza baja](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.009.png)
 
-**Mala Calidad (Modelo CyberRealistic) img2img:**
+### Mala Calidad (Modelo CyberRealistic) `img2img`
 
 ![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.010.png)
 
@@ -65,6 +66,6 @@ very poor quality realistic bananas. Bananas should look black, rotten, and badl
 
 Steps: 30, Sampler: Euler a, CFG scale: 7, Seed: 2632735336, Size: 512x512, Model hash: 107d2a241b, Model: CyberRealistic, Denoising strength: 0.75
 
-Resultado esperados y aceptables:  
+#### Resultado esperados y aceptables:  
 
 ![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.011.png)            ![Dibujo de un plátano Descripción generada automáticamente con confianza media](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.012.png)
