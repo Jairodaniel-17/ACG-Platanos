@@ -1,6 +1,14 @@
 # ACG-Platanos
 La generación de imagenes puede servir para entrenar modelos más pequeños y más especificos, además, por lo visto se esta utilizando torch y no solo tensorflow para la generación de imagenes, por lo tanto para el proyecto de algoritmos de computación grafica se esta usando el modelo `fruitFusion.safetensors` y `CyberRealistic.safetensors` para la generación de imágenes precisas de plátanos de seda, con ciertas caracteristicas que buscamos en platanos de seda con calidades de `excelente calidad`, `calidad regular`, `calidad baja` y `mala calidad` para asi poder clasificarlos y generar un `modelo de reconocimiento de plátanos` preciso que nos diga la calidad de los plátanos.
 
+ 
+
+[![Open In Colab][colab-badge]][colab-notebook-stable-diffusion] 
+ 
+[colab-notebook-stable-diffusion]: <https://colab.research.google.com/drive/1x5xqTxlK-iOHRzxfvwyQEdghxrdVVXKe?usp=sharing>
+
+[colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
+
 Darle clic al botón de play:
 
 ![](img_README/Aspose.Words.da199446-66e4-4986-9af5-731cbe0c1d8b.001.png)
